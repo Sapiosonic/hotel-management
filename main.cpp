@@ -36,6 +36,7 @@ int main() {
 	cout<<"\n Quantity of chicken-roll: ";
 	cin>>qChicken;
 	
+	m:
 	cout<<"\n\t\t\t Please select from the menu options ";
 	cout<<"\n\n1) Rooms";
 	cout<<"\n2) Pasta";
@@ -167,6 +168,6 @@ int main() {
 			cout<<"\n Please select the numbers mentioned above!";
 		break;
 	}
+	goto m;
 	
-	return 0;
 }
